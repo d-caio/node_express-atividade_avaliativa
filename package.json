@@ -1,0 +1,25 @@
+{
+  "name": "node_express-atividade_avaliativa",
+  "version": "1.0.0",
+  "description": "\"# node_express-atividade_avaliativa\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-caio/node_express-atividade_avaliativa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-caio/node_express-atividade_avaliativa/issues"
+  },
+  "homepage": "https://github.com/d-caio/node_express-atividade_avaliativa#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
