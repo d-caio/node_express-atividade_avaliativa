@@ -12,21 +12,26 @@ const alunos = [
     {
         nome: "Vovô Paulo",
         media: 5
+    },
+
+    {
+        nome: "Lua",
+        media: 1000000
     }
 ]
 
-const filtrarAlunosPorNome = (nome) => {
-    const nomesEncontrados = alunos.filter(aluno => aluno.nome === nome)
+const filtrarAlunosPorNome = (array, nome) => {
+    const nomesEncontrados = array.filter(index => index.nome === nome)
     return nomesEncontrados
 }
 
-const filtrarAlunosPorMedia = (media) => {
-    const mediasEncontradas = alunos.filter(aluno => aluno.media >= media)
+const filtrarAlunosPorMedia = (array, media) => {
+    const mediasEncontradas = array.filter(index => index.media >= media)
     return mediasEncontradas
 }
 
-module.exports = [
+module.exports = {
     alunos,
     filtrarAlunosPorNome,
     filtrarAlunosPorMedia
-]
+}
